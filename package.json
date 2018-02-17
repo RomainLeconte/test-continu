@@ -1,0 +1,23 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomainLeconte/test-continu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomainLeconte/test-continu/issues"
+  },
+  "homepage": "https://github.com/RomainLeconte/test-continu#readme",
+  "dependencies": {
+    "mocha": "^5.0.1",
+    "mongoose": "^5.0.6"
+  }
+}
