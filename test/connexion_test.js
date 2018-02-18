@@ -18,8 +18,10 @@ before((done) => {
 })
 
 beforeEach ('Delete old Books', (done) => {
-    const {books} = mongoose.connection.collections;
-    books.drop(() => {
-        done();
+    const {books, users} = mongoose.connection.collections;
+    books.drop( () => {
+        users.drop( () => {
+            done();
+        })
     })
 })
